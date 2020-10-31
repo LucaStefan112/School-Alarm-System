@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1604052430 source:d:\info\c++\probleme\alarma_pauza\main.cpp
-	<bits/stdc++.h>
-	<Windows.h>
-	<windows.h>
-	<tlhelp32.h>
-	<tchar.h>
-
