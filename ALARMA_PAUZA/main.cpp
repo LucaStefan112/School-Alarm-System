@@ -54,7 +54,7 @@ void Pauza(int ora, int minut){
 int main(){
 
     bool pauza = false;
-    Pauza(1, 1);
+
     while(1){
         time_t now;
         struct tm nowLocal;
