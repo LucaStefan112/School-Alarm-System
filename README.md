@@ -1,5 +1,8 @@
 # Alarm-system-for-Negruzzi
-Alarm system for my College
+#Alarm system for my College
 
-#To use it:
-#Download the file anywhere in the computer and run the "startupCopy.bat" to copy a shortcut to the startup of the system.
+# 1)
+#The main.cpp is an alternative for the whole project. Before i made it in Electron.js, i tried to make an simple version, in C++, so that's the main.cpp script. It needs to be #run by a compiler and to create an .exe file to work properly, and of course, the sound.mp3.
+
+# 2)
+#The other files are from the Dev folder of the Electron.js based version. I couldn't include the "node_modules" folder because of its size(>25Mb), so i uploaded only the #important stuff. Also i didn't want to upload the packaged and the ready to use version, because of its size, and because i wanted to have the code visible.
