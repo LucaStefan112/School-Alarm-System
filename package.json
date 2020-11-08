@@ -1,0 +1,33 @@
+{
+  "name": "Alarm-Negruzzi",
+  "version": "1.0.0",
+  "description": "Electron based alarm system for anouncing the breaks between classes",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build-installer": "electron-builder"
+  },
+  "build": {
+    "appId": "Alarm-Negruzzi",
+    "win": {
+      "target": ["nsis"],
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "installerIcon": "icon.ico",
+      "uninstallerIcon": "icon.ico",
+      "uninstallDisplayName": "Alarm-Negruzzi",
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
+  "author": "Tamas Luca-Stefan",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^10.1.5"
+  },
+  "dependencies": {
+    "play-sound": "^1.1.3"
+  }
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Alarm_Sound</title>
+	</head>
+	<body>
+	</body>
+</html>
+
+<script type="text/javascript" defer>
+	const electron = require('electron');
+	const ipc = electron.ipcRenderer;
+	const alarmSound = new Audio('./alarmSound.mp3');
+
+	function process(){
+		alarmSound.play();
+		setTimeout(() => window.close(), 5000);
+	}
+
+	process();
+</script>
